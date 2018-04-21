@@ -11,7 +11,7 @@ end
 input = "1" - "9"
 
 def input_to_index(input)
-  input.to_i
+  index = input.to_i
   move = index + 1
 end
 
